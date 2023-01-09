@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+h3 {
+  text-align: center;
+  color: rgb(95, 13, 13);
+}
+a {
+  color: darkblue;
+}
+p {
+  text-align: left;
+  text-size-adjust: 20px;
+  color: rgba(43, 4, 201, 0.705);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.rodape input[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.rodape input[type="submit"]:hover {
+  background-color: #f44336;
+}
+.rodape input[type="submit"]:active {
+  background-color: #1a08e5;
+  box-shadow: 0 5px rgb(52, 69, 200);
+  transform: translateY(4px);
+}
+a:link,
+a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: right;
+  text-decoration: none;
+  display: flow-root;
+}
+a:hover,
+a:active {
+  background-color: rgb(5, 59, 207);
+}
